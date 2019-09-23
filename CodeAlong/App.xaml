@@ -4,6 +4,5 @@
 	     xmlns:prism="http://prismlibrary.com/"
              xmlns:local="clr-namespace:CodeAlong">
     <Application.Resources>
-        <ResourceDictionary Source="pack://application:,,,/Fluent;Component/Themes/Generic.xaml" />
     </Application.Resources>
 </prism:PrismApplication>
