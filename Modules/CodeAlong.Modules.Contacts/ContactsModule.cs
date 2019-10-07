@@ -1,5 +1,6 @@
 ﻿using CodeAlong.Core;
 using CodeAlong.Modules.Contacts.Menus;
+using CodeAlong.Modules.Contacts.ViewModels;
 using CodeAlong.Modules.Contacts.Views;
 using Prism.Ioc;
 using Prism.Modularity;
@@ -22,7 +23,7 @@ namespace CodeAlong.Modules.Contacts
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            
+            containerRegistry.RegisterForNavigation<ViewA,ViewAViewModel>();
         }
     }
 }

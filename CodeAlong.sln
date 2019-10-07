@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAlong.Modules.Calendar"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAlong.Core", "CodeAlong.Core\CodeAlong.Core.csproj", "{92C0559A-EC53-48AF-B371-76DF6A49B63C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAlong.Business", "CodeAlong.Business\CodeAlong.Business.csproj", "{27D015D8-D8A1-4E79-9624-A97FC7DE14B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{92C0559A-EC53-48AF-B371-76DF6A49B63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92C0559A-EC53-48AF-B371-76DF6A49B63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92C0559A-EC53-48AF-B371-76DF6A49B63C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D015D8-D8A1-4E79-9624-A97FC7DE14B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D015D8-D8A1-4E79-9624-A97FC7DE14B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D015D8-D8A1-4E79-9624-A97FC7DE14B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D015D8-D8A1-4E79-9624-A97FC7DE14B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

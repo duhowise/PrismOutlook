@@ -20,7 +20,7 @@ namespace CodeAlong.Core.Regions
                 {
                     case NotifyCollectionChangedAction.Add:
                         {
-                            foreach (OutlookBarGroup group in y.NewItems)
+                            foreach (Infragistics.Windows.OutlookBar.OutlookBarGroup group in y.NewItems)
                             {
                                 regionTarget.Groups.Add(group);
                                 if (regionTarget.Groups[0] == group)
@@ -33,7 +33,7 @@ namespace CodeAlong.Core.Regions
                         }
                     case NotifyCollectionChangedAction.Remove:
                         {
-                            foreach (OutlookBarGroup group in y.OldItems)
+                            foreach (Infragistics.Windows.OutlookBar.OutlookBarGroup group in y.OldItems)
                             {
                                 regionTarget.Groups.Remove(group);
                             }

@@ -1,12 +1,18 @@
-﻿<ig:OutlookBarGroup x:Class="CodeAlong.Modules.Mail.Menus.MailGroup"
+﻿<igwpf:OutlookBarGroup x:Class="CodeAlong.Modules.Mail.Menus.MailGroup"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:CodeAlong.Modules.Mail.Menus"
-             xmlns:ig="http://schemas.infragistics.com/xaml/wpf" Header="Mail" >
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             xmlns:igwpf="http://schemas.infragistics.com/xaml/wpf" Header="Mail"
+             xmlns:ig="http://schemas.infragistics.com/xaml"
+             >
+    
     <Grid>
-        <TextBlock>Testing</TextBlock>
+        <ig:XamDataTree ItemsSource="{Binding Items}" >
+            <ig:XamDataTree.GlobalNodeLayouts>
+                <ig:NodeLayout Key="GlobalLayout" TargetTypeName="NavigationItem" DisplayMemberPath="Caption" />
+            </ig:XamDataTree.GlobalNodeLayouts>
+        </ig:XamDataTree>
     </Grid>
     
-</ig:OutlookBarGroup>
+</igwpf:OutlookBarGroup>
